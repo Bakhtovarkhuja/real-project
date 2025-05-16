@@ -13,6 +13,13 @@ let nezhniyA = document.querySelector('.nezhniyA')
 let murgiA = document.querySelector('.murgiA')
 let ajabsanA = document.querySelector('.ajabsanA')
 let barbekyuA = document.querySelector('.barbekyuA')
+let farsha = document.querySelector('.farsha')
+let kuskavoya = document.querySelector('.kuskavoya')
+let dumbaa = document.querySelector('.dumbaa')
+let nezhniya = document.querySelector('.nezhniya')
+let murgia= document.querySelector('.murgia')
+let ajabsana = document.querySelector('.ajabsana')
+let barbekyua = document.querySelector('.barbekyua')
 let farshS = document.querySelector('.farshS')
 let kuskavoyS = document.querySelector('.kuskavoyS')
 let dumbaS = document.querySelector('.dumbaS')
@@ -34,21 +41,21 @@ let b2 = document.querySelector('.b2')
 
 generate.onclick = () => {
     // Считаем шашлыки
-    let FARSH = (Number(farshS.value) + Number(farsh.value) - Number(farshA.value)) * 16
-    let KUSKAVOY = (Number(kuskavoyS.value) + Number(kuskavoy.value) - Number(kuskavoyA.value)) * 19
-    let DUMBA = (Number(dumbaS.value) + Number(dumba.value) - Number(dumbaA.value)) * 20
-    let NEZHNIY = (Number(nezhniyS.value) + Number(nezhniy.value) - Number(nezhniyA.value)) * 17
-    let MURGI = (Number(murgiS.value) + Number(murgi.value) - Number(murgiA.value)) * 14
-    let AJABSAN = (Number(ajabsanS.value) + Number(ajabsan.value) - Number(ajabsanA.value)) * 17
-    let BARBEKYU = (Number(barbekyuS.value) + Number(barbekyu.value) - Number(barbekyuA.value)) * 48
+    let FARSH = (Number(farshS.value) + Number(farsh.value) - Number(farshA.value) - Number(farsha.value)) * 16
+    let KUSKAVOY = (Number(kuskavoyS.value) + Number(kuskavoy.value) - Number(kuskavoyA.value) - Number(kuskavoya.value)) * 19
+    let DUMBA = (Number(dumbaS.value) + Number(dumba.value) - Number(dumbaA.value) - Number(dumbaa.value)) * 20
+    let NEZHNIY = (Number(nezhniyS.value) + Number(nezhniy.value) - Number(nezhniyA.value) - Number(nezhniya.value)) * 17
+    let MURGI = (Number(murgiS.value) + Number(murgi.value) - Number(murgiA.value) - Number(murgia.value)) * 14
+    let AJABSAN = (Number(ajabsanS.value) + Number(ajabsan.value) - Number(ajabsanA.value) - Number(ajabsana.value)) * 17
+    let BARBEKYU = (Number(barbekyuS.value) + Number(barbekyu.value) - Number(barbekyuA.value) - Number(barbekyua.value)) * 48
 
-    let FARSHa = (Number(farshS.value) + Number(farsh.value) - Number(farshA.value))
-    let KUSKAVOYa = (Number(kuskavoyS.value) + Number(kuskavoy.value) - Number(kuskavoyA.value))
-    let DUMBAa = (Number(dumbaS.value) + Number(dumba.value) - Number(dumbaA.value))
-    let NEZHNIYa = (Number(nezhniyS.value) + Number(nezhniy.value) - Number(nezhniyA.value))
-    let MURGIa = (Number(murgiS.value) + Number(murgi.value) - Number(murgiA.value))
-    let AJABSANa = (Number(ajabsanS.value) + Number(ajabsan.value) - Number(ajabsanA.value))
-    let BARBEKYUa = (Number(barbekyuS.value) + Number(barbekyu.value) - Number(barbekyuA.value))
+    let FARSHa = (Number(farshS.value) + Number(farsh.value) - Number(farshA.value) - Number(farsha.value))
+    let KUSKAVOYa = (Number(kuskavoyS.value) + Number(kuskavoy.value) - Number(kuskavoyA.value) - Number(kuskavoya.value))
+    let DUMBAa = (Number(dumbaS.value) + Number(dumba.value) - Number(dumbaA.value) - Number(dumbaa.value))
+    let NEZHNIYa = (Number(nezhniyS.value) + Number(nezhniy.value) - Number(nezhniyA.value) - Number(nezhniya.value))
+    let MURGIa = (Number(murgiS.value) + Number(murgi.value) - Number(murgiA.value) - Number(murgia.value))
+    let AJABSANa = (Number(ajabsanS.value) + Number(ajabsan.value) - Number(ajabsanA.value) - Number(ajabsana.value))
+    let BARBEKYUa = (Number(barbekyuS.value) + Number(barbekyu.value) - Number(barbekyuA.value) - Number(barbekyua.value))
 
     let obshiyShashlik = FARSH + KUSKAVOY + DUMBA + NEZHNIY + MURGI + AJABSAN + BARBEKYU
 
