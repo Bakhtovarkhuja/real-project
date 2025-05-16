@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@media (max-width: 410px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    input{
+        padding: 10px 15px;
+        border-radius: 40px;
+        outline: none;
+    }
+    .sec{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .sec .inputs{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .sec .inputs .min{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px
+    }
+    .sec .inputs .min input{
+        width: 80%;
+    }
+    .sec1{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .sec1 .inputs{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .sec1 .inputs .min{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .sec1 .inputs .min input{
+        width: 80%;
+    }
+    .sec2{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .sec2 .min {
+        display: flex;
+        gap: 10px;
+    }
+    .sec2 .min input{
+        width: 50%;
+    }
+    .sec3{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .sec3 .min {
+        display: flex;
+        gap: 10px;
+    }
+    .sec3 .min input{
+        width: 50%;
+    }
+    button{
+        padding: 10px 0;
+        font-size: 18px;
+        border-radius: 30px;
+        border: none;
+        background-color: rgb(142, 188, 142);
+        color: green;
+    }
+    .dialog{
+        margin: auto;
+        padding: 20px;
+        border-radius: 30px;
+        border: 1px solid gray;
+    }
+    .b{
+        font-size: 22px;
+    }
+    .b1{
+        margin: 7px 0;
+        font-size: 20px;
+    }
+    .b2{
+        font-size: 20px;
+    }
+    .cancel{
+        width: 100%;
+        margin-top: 10px;
+        background-color: rgb(201, 128, 128);
+        color: red;
+    }
+}
